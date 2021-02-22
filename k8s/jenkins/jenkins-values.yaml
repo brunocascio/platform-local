@@ -1,7 +1,8 @@
 controller:
-  serviceType: NodePort
   adminUser: admin
   adminPassword: admin
+  serviceAnnotations: 
+    sidecar.istio.io/inject: "true"
 
 # persistence:
 #   enabled: false

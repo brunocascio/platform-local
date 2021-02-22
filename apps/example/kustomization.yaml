@@ -1,0 +1,3 @@
+resources:
+  - https://raw.githubusercontent.com/istio/istio/release-1.9/samples/httpbin/httpbin.yaml
+  - ingress-gateway.yml
